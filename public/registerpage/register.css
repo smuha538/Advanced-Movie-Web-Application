@@ -1,0 +1,36 @@
+.col.s12 > .btn {
+  width: 100%;
+}
+
+.validateIcon {
+  right: 0;
+}
+
+.errorIcon {
+  color: red;
+}
+
+.checkIcon {
+  color: blue;
+}
+
+.visibleIcon {
+  right: -1;
+  cursor: pointer;
+}
+
+#movePassword {
+  margin-top: 1px !important;
+}
+
+#moveConfirm {
+  margin-top: 2px !important;
+}
+
+#moveEmail {
+  margin-top: 1px !important;
+}
+
+.shift {
+  margin-left: 2px !important;
+}

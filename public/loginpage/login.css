@@ -1,0 +1,28 @@
+html {
+  background: url(./background.jpeg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Rubik';
+}
+
+#card-padding {
+  padding: 7rem 2rem;
+}
+
+#button-fonts {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.card {
+  border-radius: 10px;
+}
+#card-styles {
+  margin-top: 6rem;
+}
+
+#button-section {
+  margin-top: 2rem;
+}

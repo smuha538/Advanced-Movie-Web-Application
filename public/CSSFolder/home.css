@@ -1,0 +1,58 @@
+body {
+  background-image: url("https://images.unsplash.com/photo-1594014390932-286596f6f6f4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1453&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+body .row {
+  margin-top: 30px !important;
+}
+
+.searchbox {
+  margin-top: -30px; 
+}
+
+.card {
+  border-radius: 10px;
+  padding: 2rem
+}
+
+::placeholder {
+  color: black;
+  opacity: 40%;
+}
+
+.btn-large {
+  border: 2px solid;
+  border-radius: 10px;
+}
+
+.btn {
+  border: 1px solid;
+  border-radius: 4px;
+
+}
+
+.carousel-item {
+  width: 130px !important;
+  padding-left: 5%;
+}
+
+.movie {
+  cursor: pointer;
+}
+
+.carousel {
+  perspective: 4000px;
+  height: 210px !important;
+}
+
+.carousel span {
+  font-size: smaller;
+}
+
+#recommendations, #favouriteMovies, #userInfo {
+  border-radius: 10px;
+}

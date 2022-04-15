@@ -1,0 +1,75 @@
+html {
+  background: url(https://images.unsplash.com/photo-1510074377623-8cf13fb86c08?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2072&q=80) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Rubik';
+}
+
+.card {
+  border-radius: 15px;
+  opacity: 95%;
+}
+
+#aboutPageContainer {
+  background-color: gainsboro;
+}
+
+#aboutPageContainer h1, h2 {
+  font-family:Georgia, 'Times New Roman', Times, serif !important;
+}
+
+.aboutDiv div, h2, h1 {
+  text-align: center;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  margin-top: 10pt !important;
+}
+
+.aboutDiv h2 {
+  background-color: gray;
+}
+
+#timerDiv {
+  padding-top: 5pt !important;
+  padding-left: 5pt !important;
+}
+
+#webTech img {
+  margin-left: 25pt !important;
+}
+
+#aboutPageContainer a {
+  font-family: 'Times New Roman', Times, serif; 
+  font-size: small !important;
+  color: blueviolet !important;
+}
+
+#sql, #html, #javascript, #heroku, #php, #css {
+  display: inline-block;
+}
+
+
+@media screen and (max-width: 600px) {
+ #webTech {
+   display: grid;
+   grid-template-columns: 50% 50%;
+ }  
+
+ #webTech img {
+  padding-right: 20pt !important;
+}
+
+#javascript {
+  margin-left: 20pt !important;
+}
+
+#heroku {
+   padding-left: 20pt !important;
+ }
+
+ #php {
+   padding-top: 30pt !important;
+ }
+}
+

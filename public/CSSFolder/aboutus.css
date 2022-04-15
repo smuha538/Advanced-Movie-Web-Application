@@ -1,0 +1,34 @@
+.card {
+  border-radius: 10px;
+}
+
+.aboutHeader {
+  color: white;
+  font-weight: bold;
+}
+
+.headerStyle {
+  margin-top: 3rem;
+}
+
+.aGithub {
+  margin-top: -4rem;
+}
+
+.cardStyleInd {
+  margin-top: -3rem;
+}
+
+@media screen and (max-width: 600px)  {
+  .headerStyle {
+    margin-top: 1rem;
+  }
+
+  .aGithub {
+    margin-top: -1rem;
+  }
+
+  .cardStyleInd {
+    margin-top: 0rem;
+  }
+}
