@@ -1,4 +1,4 @@
-Movie Web Application - by Sahir Muhammad Tariq, Sam Tang, and Ramin Radmand
+**Movie Web Application - by Sahir Muhammad Tariq, Sam Tang, and Ramin Radmand**
 
 Link to Website: [Website Live Link](https://comp-3512-w22-team-03.herokuapp.com/)
 
